@@ -4,6 +4,7 @@
 class MyError(Exception):
     def __init__(self):
         pass
+    
     def __str__(self):
         return 'this is self define error'
 
